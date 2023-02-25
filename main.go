@@ -1,5 +1,8 @@
 package main
 
+import "fmt"
+
 func main() {
-	reorganizeString("aabvvvvvc")
+	fmt.Printf("%d %d %d %d %d %d ", '(', ')', '[', ']', '{', '}')
+
 }
